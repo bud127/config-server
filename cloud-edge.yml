@@ -20,7 +20,6 @@ zuul:
     hello:
         path: /hello/*
         url: http://localhost:8762
-        stripPrefix: false
-        sensitiveHeaders:
+        serviceId: hello
 server:
   port: 4000
