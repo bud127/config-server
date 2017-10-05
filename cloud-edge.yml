@@ -19,7 +19,6 @@ zuul:
   routes:
     hello:
         path: /hello/*
-        url: http://localhost:8762
         serviceId: hello
 server:
   port: 4000
