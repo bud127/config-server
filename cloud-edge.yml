@@ -18,8 +18,8 @@ zuul:
 
   routes:
     hello:
-        path: /**
-        url: http://localhost:8762
+        path: /hell0/*
+        url: http://localhost:876o
         stripPrefix: false
         sensitiveHeaders:
 server:
